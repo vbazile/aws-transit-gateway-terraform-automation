@@ -1,0 +1,6 @@
+region         = "eu-west-1"
+profile        = "revolve_tooling"
+bucket         = "github-tgw-backend-tfstates"
+key            = "project/prod-2/vpc-infra/terraform.tfstate"
+dynamodb_table = "tgw-tfstate-locking"
+encrypt        = true
